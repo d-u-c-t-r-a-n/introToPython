@@ -20,6 +20,8 @@
 myString = "Hello World"
 myString = "Bonjour le monde"
 
+# No semicolon needed. But we can still put it if we want to.
+
 # numeric
 wife = 1                # int
 allowance = 23.45       # float
