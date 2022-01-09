@@ -147,8 +147,9 @@ print(duc)
 
 # list comprehension
 original = [x for x in range(20)]
-doubleEven = [x*2 for x in original if x % 2 == 0]
 print(original)
+
+doubleEven = [x*2 for x in original if x % 2 == 0]
 print(doubleEven)
 
 
