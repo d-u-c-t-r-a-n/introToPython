@@ -159,6 +159,7 @@ print(doubleEven)
 # 2x Census Division sequentially
 # 4x Collection Unit sequentially
 
+import random
 def pickProvinceCode():
     return random.choice(
         [10, 11, 12, 13, 24, 35, 46, 48, 59, 60, 61, 62])
