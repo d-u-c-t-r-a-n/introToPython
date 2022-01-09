@@ -58,14 +58,13 @@ avgHousePriceSep21 = {"British Columbia": 913471,
                       "Northwest Territories": "Unknown",
                       3: dict()}
 
+avgHousePriceSep21["Ontario"] = 23.45
+print(avgHousePriceSep21)
 
 # Manipulation:
 me = "I don't eat dogs"
 neighbor = me[8:] + " for fun"
 print(neighbor)
-
-avgHousePriceSep21["Ontario"] = 23.45
-print(avgHousePriceSep21)
 
 alphabet = ["a", "b", "c"]
 reversedAlphabet = alphabet[::-1]
