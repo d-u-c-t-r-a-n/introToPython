@@ -9,7 +9,7 @@
 # Easy to write, slow run time
 
 # Variables:
-# No need to declare variable types. Python automatically check for types on run time
+# No need to declare variable types. Python automatically check for types on run time (Dynamic Typing)
 # LHS = pointer, RHS = object with information
 # Variables can be reused (just point to new object)
 # ---------------------------------------------------------------------
@@ -17,13 +17,8 @@
 # string, int, float, boolean, list, set, dictionary
 
 # string
-import random
-from os import initgroups
-
-# Dynamic Typing: You don't need to declare a type for variable
 myString = "Hello World"
 myString = "Bonjour le monde"
-
 
 # numeric
 wife = 1                # int
