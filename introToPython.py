@@ -39,7 +39,7 @@ stores = tuple()
 stores = ("Home Depot", "Tim Hortons", 99.99)
 
 fruits = set()
-fruits = {"Tomato", "Cucumber", "Beans"}
+fruits = {"Tomato", "Cucumber", "Beans", 3}
 
 avgHousePrice2022 = dict()
 avgHousePriceSep21 = {"British Columbia": 913471,
