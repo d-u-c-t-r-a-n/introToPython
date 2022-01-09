@@ -163,7 +163,7 @@ import random
 def pickProvinceCode():
     return random.choice(
         [10, 11, 12, 13, 24, 35, 46, 48, 59, 60, 61, 62])
-
+print(pickProvinceCode())
 
 def createPRCDCU():
     censusDivision = 1
