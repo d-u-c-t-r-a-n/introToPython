@@ -68,6 +68,7 @@ print(neighbor)
 
 alphabet = ["a", "b", "c"]
 reversedAlphabet = alphabet[::-1]
+print(reversedAlphabet)
 # slicing syntax [ <first element to include> : <first element to exclude> : <step>]
 
 # Type casting
