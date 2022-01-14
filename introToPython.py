@@ -18,9 +18,9 @@
 # string, int, float, boolean, list, set, dictionary
 
 # string
-myString = "Hello World"
+myString = "Hello World - Bonjour le monde"
 print(myString)
-myString = "Bonjour le monde"
+myString = 13 + 45
 print(myString)
 
 # No semicolon needed. But we can still put it if we want to.
