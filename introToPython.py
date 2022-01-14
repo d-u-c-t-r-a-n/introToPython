@@ -9,7 +9,8 @@
 # Easy to write, slow run time
 
 # Variables:
-# No need to declare variable types. Python automatically check for types on run time (Dynamic Typing)
+# No need to declare variable types. 
+# Python automatically check for types on run time (Dynamic Typing)
 # LHS = pointer, RHS = object with information
 # Variables can be reused (just point to new object)
 # ---------------------------------------------------------------------
@@ -34,6 +35,8 @@ pythonIsHard = False
 # collection
 valuables = list()
 belonging = ["socks", "shirts", 1, 23.45, ["pringles", "pepsi"]]
+print(valuables)
+print(belonging)
 
 stores = tuple()
 stores = ("Home Depot", "Tim Hortons", 99.99)
@@ -69,7 +72,8 @@ print(neighbor)
 alphabet = ["a", "b", "c"]
 reversedAlphabet = alphabet[::-1]
 print(reversedAlphabet)
-# slicing syntax [ <first element to include> : <first element to exclude> : <step>]
+# slicing syntax
+# [<first element to include> : <first element to exclude> : <step>]
 
 # Type casting
 a = 5
