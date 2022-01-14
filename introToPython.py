@@ -85,17 +85,14 @@ if vous > moi or vous == moi:
     print("replace curly braces ")
     if True:
         pass
-
 elif vous <= moi and vous != moi:
     print("Or we can have one line statement")
-
 else:
     print("Hello! My name is Duc")
 
 # Ternary Operators
 condition = True
 statement = "Satisfied" if condition else "Not Satisfied"
-
 
 # for loop
 print("")
@@ -104,7 +101,6 @@ for i in range(len(belonging)):
 
 for _ in range(5):
     print("Who let the dog out")
-print("")
 
 # while loop
 counter = 0
@@ -112,33 +108,24 @@ while counter < 10:
     if counter == 2:
         counter += 2
         continue
-
     if counter == 6:
         break
-
     print(counter)
     counter += 1
 
 # functions
-
-
 def sum(a, b):
     return a+b
 
 # class
-
-
 class Person:
     def __init__(self, nameParam, ageParam):
         self.name = nameParam
         self.age = ageParam
-
     def getOld(self):
         self.age += 1
-
     def __str__(self):
         return self.name + " is " + str(self.age) + " years old."
-
 
 duc = Person("Duc", 5)
 duc.getOld()
@@ -165,12 +152,11 @@ def pickProvinceCode():
         [10, 11, 12, 13, 24, 35, 46, 48, 59, 60, 61, 62])
 print(pickProvinceCode())
 
-def createPRCDCU():
+def createPRCDCU(numRow):
     censusDivision = 1
     collectionUnit = 1
 
-    numberOfRecords = 10000
-    for _ in range(numberOfRecords):
+    for _ in range(numRow):
         result = int(str(pickProvinceCode()) +
                      str(censusDivision).zfill(2) + str(collectionUnit).zfill(4))
         censusDivision += 1
@@ -178,4 +164,4 @@ def createPRCDCU():
         yield result
 
 
-print(list(createPRCDCU()))
+print(list(createPRCDCU(10000)))
