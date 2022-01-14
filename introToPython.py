@@ -18,10 +18,10 @@
 # string, int, float, boolean, list, set, dictionary
 
 # string
-myString = "Hello World - Bonjour le monde"
-print(myString)
-myString = 13 + 45
-print(myString)
+myVariable = "Hello World - Bonjour le monde"
+print(myVariable)
+myVariable = 13 + 45
+print(myVariable)
 
 # No semicolon needed. But we can still put it if we want to.
 
