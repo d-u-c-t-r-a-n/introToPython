@@ -19,7 +19,9 @@
 
 # string
 myString = "Hello World"
+print(myString)
 myString = "Bonjour le monde"
+print(myString)
 
 # No semicolon needed. But we can still put it if we want to.
 
