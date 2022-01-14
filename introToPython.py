@@ -159,9 +159,15 @@ def createPRCDCU(numRow):
     for _ in range(numRow):
         result = int(str(pickProvinceCode()) +
                      str(censusDivision).zfill(2) + str(collectionUnit).zfill(4))
-        censusDivision += 1
         collectionUnit += 1
+
+        if collectionUnit > 9999:
+            censusDivision += 1
+            collectionUnit = 1
+
         yield result
 
-
 print(list(createPRCDCU(10000)))
+
+
+
